@@ -1,0 +1,16 @@
+{
+	Filter = {
+		Bundles = (
+			"com.apple.AuthKit",
+			"com.apple.UIKit",
+			"com.apple.Security",
+			"com.apple.itunesstored",
+			"com.apple.appstored",
+			"com.apple.network.boringssl.BoringSSL",
+		);
+		Executables = (
+			"securityd",
+			"trustd",
+		);
+	};
+}
