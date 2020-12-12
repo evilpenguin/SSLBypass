@@ -7,6 +7,7 @@
 #import <Security/SecureTransport.h>
 #include <mach-o/dyld.h>
 #include <Foundation/Foundation.h>
+#include <dlfcn.h>
 
 #ifdef DEBUG
     #define DLog(FORMAT, ...) fprintf(stderr, "+[SSLBypass] %s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
